@@ -1,0 +1,30 @@
+:root {
+	// primary colors
+	--LimeGreen: hsl(163, 72%, 41%);
+	--BrightRed: hsl(356, 69%, 56%);
+
+	// social media app colors
+	--Facebook: hsl(208, 92%, 53%);
+	--Twitter: hsl(203, 89%, 53%);
+	--InstagramStart: hsl(210, 78%, 56%);
+	--InstagramEnd: hsl(329, 70%, 58%);
+	--YouTube: hsl(348, 97%, 39%);
+
+	// toggler theme
+	--BgToggleStart: hsl(210, 78%, 56%);
+	--BgToggleEnd: hsl(146, 68%, 55%);
+	--BgToggle: hsl(230, 22%, 74%);
+
+	// dark theme
+	--BgDark: hsl(230, 17%, 14%);
+	--BgDarkTop: hsl(232, 19%, 15%);
+	--BgDarkCard: hsl(228, 28%, 20%);
+	--LightBlue: hsl(228, 34%, 66%);
+	--White: hsl(0, 0%, 100%);
+
+	// light theme
+	--BgWhite: hsl(0, 0%, 100%);
+	--PaleBlue: hsl(225, 100%, 98%);
+	--GrayBlue: hsl(228, 12%, 44%);
+	--DarkBlue: hsl(230, 17%, 14%);
+}
