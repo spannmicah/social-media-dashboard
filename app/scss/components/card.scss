@@ -23,8 +23,14 @@
 	background-color: var(--BgDarkCard);
 	color: var(--LightBlue);
 	border-radius: rem(5);
+	transition: background 1s ease-in-out;
+	cursor: pointer;
+	&:hover {
+		background: var(--DarkCardHover);
+	}
+
 	&__icon {
-		margin-right: rem(8);
+		margin-right: rem(5);
 		&--facebook {
 			border-top: rem(5) solid var(--Facebook);
 		}
@@ -63,6 +69,11 @@
 		height: rem(20);
 	}
 
+	&__subtitle {
+		font-size: rem(14);
+		font-weight: 700;
+	}
+
 	&__username {
 		font-size: rem(12);
 		font-weight: 700;
@@ -73,7 +84,6 @@
 	}
 
 	&__count {
-		letter-spacing: rem(-2);
 		color: var(--White);
 		line-height: 1;
 		margin-bottom: rem(4);
@@ -82,6 +92,7 @@
 			font-weight: 700;
 		}
 		&--small {
+			font-size: rem(32);
 		}
 	}
 

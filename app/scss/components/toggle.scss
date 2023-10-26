@@ -1,32 +1,23 @@
 @use "../utils" as *;
 
 .toggle {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
 	border: none;
 	gap: rem(4.8) rem(12);
+	margin: 0;
+	display: grid;
+	grid-template-columns: 1fr 3rem;
 
 	label {
-		font-size: rem(14);
-		align-self: center;
+		font-size: rem(12);
+
 		&[for="dark"] {
-			grid-column: 1 / 2;
-			justify-self: end;
-		}
-		&[for="system"] {
-			grid-column: 1 / 4;
-			grid-row: 2 / 3;
-			justify-self: center;
-		}
-		&[for="light"] {
-			grid-column: 3 / 4;
+			place-self: center;
 		}
 	}
 
 	&__wrapper {
+		width: rem(45);
 		position: relative;
-		grid-column: 2 / 3;
-		grid-row: 1 / 2;
 		height: rem(24);
 	}
 
