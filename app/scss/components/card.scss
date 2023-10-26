@@ -20,13 +20,13 @@
 	overflow: hidden;
 	text-align: center;
 	padding: rem(25);
-	background-color: var(--BgDarkCard);
-	color: var(--LightBlue);
+	background-color: var(--BgCard);
+	color: var(--TextColor);
 	border-radius: rem(5);
 	transition: background 1s ease-in-out;
 	cursor: pointer;
 	&:hover {
-		background: var(--DarkCardHover);
+		background: var(--CardHover);
 	}
 
 	&__icon {
@@ -84,7 +84,7 @@
 	}
 
 	&__count {
-		color: var(--White);
+		color: var(--TextColor);
 		line-height: 1;
 		margin-bottom: rem(4);
 		&--big {

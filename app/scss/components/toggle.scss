@@ -8,6 +8,8 @@
 	grid-template-columns: 1fr 3rem;
 
 	label {
+		color: var(--Toggle);
+		font-weight: 700;
 		font-size: rem(12);
 
 		&[for="dark"] {
@@ -42,11 +44,7 @@
 
 		border-radius: rem(12);
 		overflow: hidden;
-		background: linear-gradient(
-			225deg,
-			var(--BgToggleStart) 0%,
-			var(--BgToggleEnd) 98.02%
-		);
+		background: var(--BgToggle);
 		pointer-events: none;
 	}
 	&__button {
@@ -57,7 +55,7 @@
 		width: rem(16);
 		height: rem(16);
 		border-radius: 50%;
-		background-color: var(--BgDark);
+		background-color: var(--Background);
 		transition: all 0.15s ease-in-out;
 	}
 
