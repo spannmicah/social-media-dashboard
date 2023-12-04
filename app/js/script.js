@@ -33,7 +33,7 @@ const checkMode = () => {
 const checkModeChange = () => {
 	window
 		.matchMedia("(prefers-color-scheme: dark)")
-		.addEventListener("change", e => {
+		.addEventListener("change", (e) => {
 			checkMode();
 		});
 };
